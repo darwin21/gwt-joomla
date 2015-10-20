@@ -108,7 +108,10 @@
   			<option value="1">RIGHT</option>
   			<option value="2">NO SIDEBAR</option>
   		</field>
-		
+	<field name="pstVersion" type="radio" class="btn-group" default="0" label="PST Version" description="Version of the Philippine Standard Module. If none, the dafault will display.">
+        <option value="0">DEFAULT</option>
+        <option value="1">OTHER VERSION</option>
+      </field>
       <!-- TODO: must create a pst module -->
       <field name="pstPosition" type="radio" class="btn-group" default="0" label="PST Position" description="Position of the Philippine Standard Module. If none, must have a replacement PST module.">
         <option value="1">LEFT</option>
